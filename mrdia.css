@@ -1,0 +1,555 @@
+@media screen and (max-width:1200px) {
+    .nav-bar {
+        width: 1000px;
+        margin: auto;
+    }
+
+    .logo-search {
+        gap: 30px;
+    }
+
+    .nav-items {
+        gap: 20px;
+    }
+
+    .logo i {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .main-section {
+        width: 1000px;
+        margin: auto;
+        margin-top: 5px;
+        gap: 15px;
+    }
+
+    .language-items {
+        width: 343px;
+    }
+
+    .bg-text {
+        margin-left: 50px;
+    }
+
+    .about-section {
+        width: 1000px;
+    }
+
+    .education-skill {
+        width: 1000px;
+    }
+
+    .skill-section {
+        padding: 15px;
+    }
+
+    .skill {
+        line-height: 1.6;
+    }
+
+    .project-service {
+        width: 1000px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .service-card {
+        height: 310px;
+        width: 310px;
+    }
+
+    .card-img {
+        width: 310px;
+    }
+
+    .contect-communication {
+        width: 1000px;
+    }
+
+    .contect-items {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .communication-card {
+        justify-content: center;
+    }
+
+    .communication-card-items {
+        flex-wrap: wrap;
+        height: 100px;
+        width: 150px;
+        margin-bottom: 20px;
+        ;
+    }
+
+    .communication-card-icon P {
+        font-size: 10PX;
+        font-weight: 500;
+    }
+
+    .communication-section h4 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .nav-bar {
+        width: 900px;
+        margin: auto;
+    }
+
+    .logo-search {
+        gap: 20px;
+    }
+
+    .nav-items {
+        gap: 15px;
+        height: 37px;
+    }
+    .nav-items a{
+        gap: 1px;
+    }
+    .nav-items a i{
+        font-size: 13px;
+    }
+
+    .logo {
+        height: 37px;
+        width: 42px;
+    }
+
+    .logo i {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .main-section {
+        width: 900px;
+        margin: auto;
+        margin-top: 5px;
+        gap: 15px;
+    }
+
+    .language-items {
+        width: 300px;
+    }
+
+    .language-items p {
+        font-size: 14px;
+        width: 100px;
+        /* height: 40px; */
+        gap: 5px;
+        height: 48px;
+        /* margin-bottom: 10px; */
+        text-align: center;
+        /* line-height: 1.3; */
+    }
+
+    .social-media-likes a i {
+        font-size: 20px;
+    }
+
+    .bg-text {
+        margin-left: 50px;
+    }
+
+    .about-section {
+        width: 900px;
+    }
+
+    .education-skill {
+        width: 900px;
+    }
+
+    .education-section h2 {
+        font-size: 25px;
+    }
+
+    .graduation-element a {
+        font-size: 20px;
+    }
+
+    .polytechnic-element a {
+        font-size: 20px;
+    }
+
+    .skill {
+        width: 100px;
+    }
+
+    .skill p {
+        font-size: 10px;
+    }
+
+    .item p {
+        font-size: 10px;
+    }
+
+    .project-service {
+        width: 900px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .service-card {
+        height: 310px;
+        width: 310px;
+    }
+
+    .card-img {
+        width: 310px;
+    }
+
+    .contect-communication {
+        width: 900px;
+    }
+
+    .contect-items {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .communication-card {
+        justify-content: center;
+    }
+
+    .communication-card-items {
+        flex-wrap: wrap;
+        height: 100px;
+        width: 260px;
+        /* margin-bottom: 20px; */
+    }
+
+    .communication-card-icon P {
+        font-size: 10PX;
+        font-weight: 500;
+    }
+
+    .communication-section h4 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .nav-bar {
+        width: 700px;
+    }
+
+    .logo-search {
+        gap: 5px;
+    }
+
+    .logo {
+        height: 38px;
+        width: 56px;
+    }
+
+    .search-bar {
+        width: 330px;
+        height: 40px;
+    }
+
+    .nav-items a {
+        width: 40px;
+    }
+
+    .nav-items a p {
+    font-size: 12px;}
+
+    .nav-items a i {
+        line-height: 1;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .main-section {
+        width: 700px;
+        margin: auto;
+        margin-top: 5px;
+        gap: 10px;
+    }
+
+    .left-section {
+        width: 60%;
+        border-radius: 20px;
+    }
+
+    .background {
+        height: 150px;
+    }
+
+    .profile-image {
+        height: 145px;
+    }
+
+    .my-language h2 {
+        font-size: 18px;
+    }
+
+    .my-language {
+        height: 145px;
+    }
+
+    .language-items {
+        width: 240px;
+        gap: 5px;
+    }
+
+    .social-media h2 {
+        font-size: 16px;
+    }
+
+    .social-media-likes {
+        gap: 3px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .social-media-likes a {
+        padding: 10px;
+        
+    }
+    .social-media-likes a i{
+        font-size: 27px;
+    }
+
+
+
+    .about-section {
+        width: 700px;
+    }
+
+
+    .education-skill {
+        width: 700px;
+    }
+    .education-section h2 {
+        font-size: 20px;;
+    }
+    .graduation-element a {
+        font-size: 18px;
+    }
+    .graduation-element p {
+        font-size: 15px;
+    }
+    .polytechnic-element a {
+        font-size: 20px;
+    }
+    .polytechnic-element p {
+        font-size: 15px;
+    }
+    .skill-section h2 {
+        font-size: 20px;
+    }
+    .all-skill-item {
+        gap: 5px;
+    }
+    .skill {
+        width: 150px;
+        font-size: 13px;
+    }
+    .skill p {
+        padding: 7px 0;
+        margin: 6px 0;
+    }
+
+    .project-service {
+        width: 700px;
+    }
+    .project-visit {
+        height: 30px;
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .service-card {
+        margin-top: 30px;
+        height: 360px;
+        width: 230px;
+    }
+    .card-img {
+        height: 155px;
+        width: 100%;
+    }
+
+
+    .contect-communication {
+        width: 700px;
+    }
+    .communication-card-items{
+        width: 300px;
+    }
+    .contect-section{
+        padding: 5px;
+    }
+    .form-item input{
+        height: 50px;
+        width: 350px;
+    }
+    .form-item textarea{
+        height: 100px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-top: 0px;
+        overflow-x: hidden;
+    }
+    
+    .nav-container{
+        width: 100vw;
+        height: 2rem;
+    }
+    
+    .nav-bar {
+        width: 99%;
+        height: 37px;
+    }
+    .logo-search {
+        width: 80%;
+        gap: 13px;
+        height: 31px;
+    }
+    
+    .menu{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .sidebar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 55vh;
+        width: 150px;
+        z-index: 99;
+        background-color: #f8f8f8;
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* backdrop-filter: blur(5px); */
+        border-bottom-left-radius: 20px;
+    }
+    .sidebar a{
+        width: 100%;
+        display: flex;
+        gap: 12px;
+        text-decoration: none;
+        padding: 10px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .sidebar a i{
+        /* font-size: 17px; */
+        /* text-align: center; */
+        padding-top: 2px;
+    }
+    .logo {
+        height: 30px;
+        width: 30px;
+        border-radius: 8px;
+    }
+    .logo i {
+        font-size: 0.9rem;
+        font-weight: 800;
+    }
+    .nav-items {
+        display: none;
+    }
+    .search-bar {
+        width: 17rem;
+        height: 31px;
+    }
+    .search-bar i{
+        font-size: 0.6rem;
+    }
+
+
+    .main-section{
+        width: 100vw;
+    }
+    .left-section{
+        width: 100vw;
+    }
+    .right-section{
+        display: none;
+    }
+    .background{
+        width: 100vw;
+        height: 160px;
+    }
+    .bg-text p{
+        font-size: 15px;
+    }
+    .typing{
+        font-size: 18px;
+        line-height: 0;
+    }
+    .profile {
+        width: 100%;
+        height: 61%;
+    }
+    .profile-image{
+        height: 112px;
+        left: 10px;
+    }
+
+    .about-section{
+        width: 100vw;
+    }
+
+
+    .education-skill{
+        display: flex;
+        flex-direction: column;
+    }
+    .education-section{
+        width: 100vw;
+    }
+    .skill-section{
+        width: 100vw;
+    }
+    .skill p{
+        margin: 3px;
+        padding: 4px;
+    }
+
+    .project-service{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-main-section{
+        width: 100vw;
+    }
+    .service-section{
+        width: 100vw;
+    }
+    .service-card{
+        width: 80%;
+    }
+    .card-img{
+        height: 220px;
+    }
+
+    .contect-communication{
+        display: flex;
+        flex-direction: column;
+    }
+    .contect-section{
+        width: 100vw;
+    }
+    .communication-section{
+        width: 100vw;
+    }
+    .footer-section{
+        width: 100vw;
+    }
+}

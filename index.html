@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradum's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mrdia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav class="nav-bar">
+            <div class="logo-search">
+                <div class="logo">
+                    <i class="fa-regular fa-p" style="color: #fff;"></i>
+                </div>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #000;"></i>
+                    <input type="text" placeholder="Search..." class="search-input">
+                </div>
+            </div>
+            <div class="menu" onclick=showSidebar()>
+                <i class="fa-solid fa-bars" style="color: #000;"></i>
+            </div>
+
+            <div class="sidebar" >
+                <a href="" onclick=hiddenSidebar()>
+                    <i class="fa-solid fa-xmark" style="color: #000; height: 30px;"></i>
+                    <p>Close</p>
+                </a>
+                <a href="#home">
+                    <i class="fa-solid fa-house" style="color: #000;"></i>
+                    <p>Home</p>
+                </a>
+                <a href="#about">
+                    <i class="fa-solid fa-user-nurse" style="color: #000;"></i>
+                    <p>About</p>
+                </a>
+                <a href="#education">
+                    <i class="fa-solid fa-book" style="color: #000;"></i>
+                    <p>Education</p>
+                </a>
+                <a href="#skill">
+                    <i class="fa-solid fa-list-check" style="color: #000;"></i>
+                    <p>Skill</p>
+                </a>
+                <a href="#service">
+                    <i class="fa-brands fa-creative-commons-nd" style="color: #000;"></i>
+                    <p>Service</p>
+                </a>
+                <a href="#project">
+                    <i class="fa-solid fa-diagram-project" style="color: #000;"></i>
+                    <p>Project</p>
+                </a>
+                <a href="#contect">
+                    <i class="fa-solid fa-envelope" style="color: #000;"></i>
+                    <p>Contect</p>
+                </a>
+            </div>
+
+            <ul class="nav-items">
+                <a href="#home">
+                    <i class="fa-solid fa-house" style="color: #000;"></i>
+                    <p>Home</p>
+                </a>
+                <a href="#about">
+                    <i class="fa-solid fa-user-nurse" style="color: #000;"></i>
+                    <p>About</p>
+                </a>
+                <a href="#education">
+                    <i class="fa-solid fa-book" style="color: #000;"></i>
+                    <p>Education</p>
+                </a>
+                <a href="#skill">
+                    <i class="fa-solid fa-list-check" style="color: #000;"></i>
+                    <p>Skill</p>
+                </a>
+                <a href="#service">
+                    <i class="fa-brands fa-creative-commons-nd" style="color: #000;"></i>
+                    <p>Service</p>
+                </a>
+                <a href="#project">
+                    <i class="fa-solid fa-diagram-project" style="color: #000;"></i>
+                    <p>Project</p>
+                </a>
+                <a href="#contect">
+                    <i class="fa-solid fa-envelope" style="color: #000;"></i>
+                    <p>Contect</p>
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="main-section">
+        <div id="home" class="left-section">
+            <div class="background">
+                <div class="bg-text">
+                    <p>I'm</p>
+                    <span class="typing"></span>
+                </div>
+                <div class="profile-image">
+                    <img src="img/profile-image.png" alt="profile image" loading="lazy">
+                </div>
+            </div>
+            <div class="profile">
+                <h2>PRADUM SINGHA<span> (He/Him)</span></h2>
+                <p class="heading">JavaScript | React JS | C++ | BTech 24</p>
+                <p class="address">Raiganj, West Bengal, India. <a href="#contect">Contect Info</a></p>
+                <p class="followers"><span class="follower">3,005 followers </span> <span
+                        class="follower connection">500+ connections</span></p>
+                <div class="resume">
+                    <a href="img/Pradum resume.pdf" target="_blank">Open My Resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="my-language">
+                <h2>know Language</h2>
+                <div class="language-items">
+                    <p>English</p>
+                    <p>Bengali</p>
+                    <p>Hindi</p>
+                </div>
+            </div>
+            <div class="social-media">
+                <h2>Social Media URL</h2>
+                <div class="social-media-likes">
+                    <a href="https://www.linkedin.com/in/pradum-singha-web-developer/"><i class="fa-brands fa-linkedin"
+                            style="color: #000;"></i></a>
+                    <a href="https://github.com/pradum99"><i class="fa-brands fa-github" style="color: #000;"></i></a>
+                    <a href="https://www.instagram.com/mr_pradum01"><i class="fa-brands fa-instagram"
+                            style="color: #000;"></i></a>
+                    <a href="https://x.com/mr_pradum1"><i class="fa-brands fa-x-twitter" style="color: #000;"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="about" class="about-section">
+        <div class="about-public">
+            <h2>About</h2>
+            <p>
+                <i class="fa-solid fa-eye" style="color: #000;"></i>
+                <span>public for everyone</span>
+            </p>
+        </div>
+        <div class="about-summery">
+            <p>
+                Hello Everyone.... <br>
+                I am Pradum Singha, currently pursuing my graduation in Electronics and Communication Engineering at
+                Cooch Behar Government Engineering College. My passion lies in the fields of web development and
+                software development, where I continually strive to enhance my skills and stay updated with the latest
+                technologies.
+                <br> <br>
+                With a solid foundation in front-end and back-end technologies, I have developed proficiency in <em>
+                    HTML, CSS, and JavaScript,</em> and I am well-versed in modern frameworks and libraries such as<em>
+                    React.js.</em> On the server side, I have hands-on experience with<em> Node.js, Express.js,</em> and
+                <em> MongoDB, </em>which enables me to build and deploy full-stack web applications.
+                <br>
+                <em> I am enthusiastic about leveraging my technical skills to solve complex problems and create
+                    innovative solutions. My goal is to contribute to impactful projects that drive business success and
+                    user satisfaction </em>
+            </p>
+        </div>
+    </div>
+
+    <div id="education" class="education-skill">
+        <div class="education-section">
+            <h2>Education</h2>
+            <div class="education">
+                <div class="graduation">
+                    <div class="graduation-items">
+                        <a href="http://cgec.org.in/">
+                            <img src="img/coochbehar img.png" alt="CGEC">
+                        </a>
+                        <div class="graduation-element">
+                            <a href="http://cgec.org.in/">Cooch Behar Government Engineering College</a>
+                            <p>Bachelor of Technology - Electronics and Communications Engineering </p>
+                            <p>Jul 2021 - Jul 2024</p>
+                            <p>Grade : 7.2</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="polytechnic">
+                    <div class="polytechnic-items">
+                        <a href="https://polytechnic.wbtetsd.gov.in/jalpaiguripoly">
+                            <img src="img/jpi img.jpg" alt="JPI">
+                        </a>
+                        <div class="polytechnic-element">
+                            <a href="https://polytechnic.wbtetsd.gov.in/jalpaiguripoly">Jalpaiguri Polytechnic
+                                Institute(JPI)</a>
+                            <!-- <h3>Jalpaiguri Polytechnic Institute(JPI)</h3> -->
+                            <p>Diploma of Education - Diploma of Electrical engineering </p>
+                            <p>Jan 2017 - Jan 2020</p>
+                            <p>Grade : 8.9</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skill" class="skill-section">
+            <h2>My Skills</h2>
+            <div class="skill-items">
+                <div class="all-skill-item">
+                    <div class="skill">
+                        <p>Language:</p>
+                        <p>Frameworks:</p>
+                        <p>Tools:</p>
+                        <p>DataBase:</p>
+                        <p>Course:</p>
+                    </div>
+                    <div class="item">
+                        <p>C++, HTML, CSS, JavaScript</p>
+                        <p>React JS, Node JS</p>
+                        <p>VS Code, Github, Postmen</p>
+                        <p>MongoDB</p>
+                        <p>DSA, Web Development, Oops</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-service">
+        <div id="project" class="project-main-section">
+            <div class="project-section">
+                <h3>Projects</h3>
+                <div class="project-items">
+                    <div class="project-heading">
+                        <h4>Full Stack e-Commerce Website</h4>
+                        <div class="project-time">Mar 2024 - Apr 2024</div>
+                    </div>
+                    <ul class="project-description">
+                        <li>Developed a responsive e-commerce website from scratch using React.js, Node.js, Express.js,
+                            and
+                            MongoDB.</li>
+                        <li>Implemented CRUD API, cart management, and product addition functionalities for seamless
+                            user
+                            experience</li>
+                    </ul>
+                    <div class="project-skill">
+                        <div class="dimond-avatar">
+                            <i class="fa-regular fa-gem" style="color: #000;"></i>
+                        </div>
+                        <div class="skill-name">Express.js, MongoDB and +3 skills</div>
+                    </div>
+                    <div class="img-url">
+                        <a class="project-img" href=" https://github.com/pradum99/e-Commerce?tab=readme-ov-file">
+                            <img src="img/E-Commerce - website.png" alt="">
+                        </a>
+                        <a class="project-visit" href="https://github.com/pradum99/e-Commerce?tab=readme-ov-file">Visit
+                            Here</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="project-items">
+                    <div class="project-heading">
+                        <h4>Full Stack AirbnB Website</h4>
+                        <div class="project-time">Mar 2023 - Mar 2023</div>
+                    </div>
+                    <ul class="project-description">
+                        <li>Implemented MVC framework to enhance the architecture of the website..</li>
+                        <li>Developed front-end functionalities with HTML, CSS, and JavaScript, while utilizing Express
+                            and MongoDB for back-end operations.</li>
+                    </ul>
+                    <div class="project-skill">
+                        <div class="dimond-avatar">
+                            <i class="fa-regular fa-gem" style="color: #000;"></i>
+                        </div>
+                        <div class="skill-name">Express.js, MongoDB and +3 skills</div>
+                    </div>
+                    <div class="img-url">
+                        <a class="project-img" href=" https://airbnb-project-o5ph.onrender.com/listings">
+                            <img src="img/Wanderlust .png" alt="">
+                        </a>
+                        <a class="project-visit" href="https://airbnb-project-o5ph.onrender.com/listings">Visit
+                            Here</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="project-items">
+                    <div class="project-heading">
+                        <h4>StudySync Website</h4>
+                        <div class="project-time">Mar 2024 - Mar 2024</div>
+                    </div>
+                    <ul class="project-description">
+                        <li>Designed and developed a fully responsive website using HTML, CSS, and JavaScript to across
+                            all devices.</li>
+                    </ul>
+                    <div class="project-skill">
+                        <div class="dimond-avatar">
+                            <i class="fa-regular fa-gem" style="color: #000;"></i>
+                        </div>
+                        <div class="skill-name">Express.js, MongoDB and +3 skills</div>
+                    </div>
+                    <div class="img-url">
+                        <a class="project-img" href=" https://pradum99.github.io/All-About-Projects/ADVANCE/StudySync">
+                            <img src="img/StudySync .png" alt="">
+                        </a>
+                        <a class="project-visit"
+                            href="https://pradum99.github.io/All-About-Projects/ADVANCE/StudySync">Visit
+                            Here</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="all-project">
+                <a href="https://github.com/pradum99/All-About-Projects">Show all Projects &rarr;</a>
+            </div>
+        </div>
+
+        <div id="service" class="service-section">
+            <div class="service-items">
+                <h2>My Service</h2>
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="img/wedsite-1.jpeg" alt="">
+                    </div>
+                    <h4>Website Developer</h4>
+                    <p>A website developer is a professional who specializes in designing, coding, and maintaining
+                        websites to ensure they are functional, user-friendly, and visually appealing.</p>
+                    <hr>
+                    <span>Open to work</span>
+                </div>
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="img/website-2.jpeg" alt="">
+                    </div>
+                    <h4>Full Stack Developer</h4>
+                    <p>A Full Stack Developer designs and maintains web applications, handling both front-end and
+                        back-end tasks using technologies like HTML, CSS, JavaScript, server-side languages, and
+                        databases</p>
+                    <hr>
+                    <span>Open to work</span>
+                </div>
+                <div class="service-card">
+                    <div class="card-img">
+                        <img src="img/website-3.jpeg" alt="">
+                    </div>
+                    <h4>Software Developer</h4>
+                    <p>Designing, coding, and debugging software to solve real-world problems efficiently, ensuring
+                        seamless user experiences and system reliability while continuously learning and adapting to new
+                        technologies and methodologies</p>
+                    <hr>
+                    <span>Open to work</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contect-communication">
+        <div id="contect" class="contect-section">
+            <h2>Contect</h2>
+            <div class="contect-items">
+                <div class="contect">
+                    <div class="contect-icon">
+                        <i class="fa-solid fa-phone" style="color: #74C0FC;"></i>
+                    </div>
+                    <p>Call Me On</p>
+                    <span>6294691060</span>
+                </div>
+                <div class="contect">
+                    <div class="contect-icon">
+                        <i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i>
+                    </div>
+                    <p>Office</p>
+                    <span>WB, India</span>
+                </div>
+                <div class="contect">
+                    <div class="contect-icon">
+                        <i class="fa-solid fa-envelope" style="color: #74C0FC;"></i>
+                    </div>
+                    <p>Email</p>
+                    <span>singhapradum@gmail.com</span>
+                </div>
+                <div class="contect">
+                    <div class="contect-icon">
+                        <i class="fa-solid fa-earth-americas" style="color: #74C0FC;"></i>
+                    </div>
+                    <p>Website</p>
+                    <span>Website</span>
+                </div>
+            </div>
+            <div class="contect-heading">
+                <h4>SEND ME A EMAIL</h4>
+                <p>I'M VERY RESPONSIVE TO MESSAGES</p>
+            </div>
+            <form class="form-section">
+                <div class="form-item">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea rows="10" id="">Enter Your Message...</textarea>
+                    <button>Send Me Message</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="communication-section">
+            <h4>Professional Skills</h4>
+            <div class="communication-card">
+                <div class="communication-card-items">
+                    <div class="communication-card-icon">
+                        <i class="fa-brands fa-nfc-symbol" style="color: #63E6BE;"></i>
+                    </div>
+                    <p>Good Communication</p>
+                </div>
+                <div class="communication-card-items">
+                    <div class="communication-card-icon">
+                        <i class="fa-brands fa-think-peaks" style="color: #63E6BE;"></i>
+                    </div>
+                    <p>Decision-maker</p>
+                </div>
+                <div class="communication-card-items">
+                    <div class="communication-card-icon">
+                        <i class="fa-solid fa-triangle-exclamation" style="color: #63E6BE;"></i>
+                    </div>
+                    <p>Problem-solver</p>
+                </div>
+                <div class="communication-card-items">
+                    <div class="communication-card-icon">
+                        <i class="fa-solid fa-worm" style="color: #63E6BE;"></i>
+                    </div>
+                    <p>Leadership</p>
+                </div>
+                <div class="communication-card-items">
+                    <div class="communication-card-icon">
+                        <i class="fa-solid fa-hourglass-start" style="color: #63E6BE;"></i>
+                    </div>
+                    <p>Time Management</p>
+                </div>
+                <div class="communication-card-items">
+                    <div class="communication-card-icon">
+                        <i class="fa-solid fa-square-plus" style="color: #63E6BE;"></i>
+                    </div>
+                    <p>Positive Attitude</p>
+                </div>
+                <div class="communication-card-items">
+                    <div class="communication-card-icon">
+                        <i class="fa-solid fa-bolt" style="color: #63E6BE;"></i>
+                    </div>
+                    <p>Positive Energy</p>
+                </div>
+                <div class="communication-card-items">
+                    <div class="communication-card-icon">
+                        <i class="fa-solid fa-ear-deaf" style="color: #63E6BE;"></i>
+                    </div>
+                    <p>Active Listening</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <p>all copyright reserved &copy; by Pradum Singha</p>
+        <p>[ 2024 ]</p>
+        <i class="fa-solid fa-heart" style="color: #f41f1f;"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
