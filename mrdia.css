@@ -484,7 +484,7 @@
     }
     .background{
         width: 100vw;
-        height: 160px;
+        height: 161px;
     }
     .bg-text p{
         font-size: 15px;
@@ -504,18 +504,21 @@
 
     .about-section{
         width: 100vw;
+        margin-top: 10px;
     }
 
 
     .education-skill{
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
     }
     .education-section{
         width: 100vw;
     }
     .skill-section{
         width: 100vw;
+        margin-top: -10px;
     }
     .skill p{
         margin: 3px;
@@ -525,12 +528,14 @@
     .project-service{
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
     }
     .project-main-section{
         width: 100vw;
     }
     .service-section{
         width: 100vw;
+        margin-top: -10px;
     }
     .service-card{
         width: 80%;
@@ -545,9 +550,11 @@
     }
     .contect-section{
         width: 100vw;
+        margin-top: 10px;
     }
     .communication-section{
         width: 100vw;
+        margin-top: -10px;
     }
     .footer-section{
         width: 100vw;
